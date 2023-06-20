@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Home from "./components/Home"
 import About from "./components/About"
+import Portfolio from "./components/Portfolio";
 import './App.css';
 
 const siteProps = {
@@ -24,6 +25,7 @@ const App = () => {
     <Header />
     <Home name={siteProps.name} title={siteProps.title} />
     <About />
+    <Portfolio />
     </div>
   )
 }
