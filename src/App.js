@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Home from "./components/Home"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer"
 import './App.css';
 
 const siteProps = {
@@ -26,6 +27,7 @@ const App = () => {
     <Home name={siteProps.name} title={siteProps.title} />
     <About />
     <Portfolio />
+    <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   )
 }
