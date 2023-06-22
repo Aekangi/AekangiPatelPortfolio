@@ -30,7 +30,7 @@ section.dark {
 
 section.light {
   color: black;
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(76, 73, 73, 0.35);
   padding: 8rem 0;
 }
 
@@ -131,4 +131,8 @@ img.socialIcon {
 
 .portfoliobgrd {
   background-color: rgb(173, 165, 194);
+}
+
+ul {
+  list-style-type: none;
 }

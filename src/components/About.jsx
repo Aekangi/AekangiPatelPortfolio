@@ -1,9 +1,9 @@
 
 import React from "react";
 
-import image from "../images/mosaic.svg";
+// import image from "../images/mosaic.svg";
 
-const imageAltText = "purple and blue abstract background";
+// const imageAltText = "purple and blue abstract background";
 
 const description =
     "Versatile professional transitioning from a successful career as a paralegal to pursue a new path as a software engineer. Combining my strong analytical and problem-solving skills with a passion for technology, I am eager to contribute to innovative software development projects and embrace continuous learning in this dynamic field.";
@@ -11,20 +11,23 @@ const description =
 const skillsList = [
     "JavaScript",
     "Python",
-    "HTML5",
+    "SQL",
     "React",
     "Vue",
-    "SQL",
+    "Node",
+    "API",
+    "Express",
+    "HTML5",
 ];
 
 const detailOrQuote = "Software is easy to make, except when you want it to do something new. And then, of course, there is a corollary: The only software that's worth making is software that does something new. Scott Rossenberg";
 const About = () => {
     return (
         <section className="light" id="about">
-            <img className="background" src={image} alt={imageAltText} />
+            <img className="background" src="https://cdn.create.vista.com/api/media/small/362325210/stock-photo-black-white-grunge-background" alt="b/w mosaic tile" />
             <div
                 style={{
-                    backgroundColor: "rgb(202, 193, 223)",
+                    backgroundColor: "rgb(115, 114, 115)",
                     opacity: ".9",
                     width: "50%",
                     padding: "4rem",
@@ -37,8 +40,8 @@ const About = () => {
                 <hr />
                 <ul
                     style={{
-                        textAlign: "left",
-                        columns: 2,
+                        textAlign: "center",
+                        columns: 3,
                         fontSize: "1.25rem",
                         margin: "2rem 3rem",
                         gap: "3rem",
@@ -51,7 +54,7 @@ const About = () => {
                 <hr />
                 <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
             </div>
-        </section>
+        </section >
     );
 };
 
