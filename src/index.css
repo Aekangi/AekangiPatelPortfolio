@@ -29,9 +29,18 @@ section.dark {
 }
 
 section.light {
-  color: black;
+  color: white;
   background: rgba(76, 73, 73, 0.35);
   padding: 8rem 0;
+}
+
+section.light h2 {
+  letter-spacing: 10px;
+}
+
+#portfolio h2 {
+  letter-spacing: 50px;
+  font-size: 3em;
 }
 
 section img.background {
@@ -99,7 +108,7 @@ li::marker {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {

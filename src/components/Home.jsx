@@ -2,7 +2,7 @@ import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 import image from "../images/portfolioIMG1.png";
-import { MDBBtn, MDBContainer } from 'mdb-react-ui-kit';
+
 
 const imageAltText = "myphoto";
 
