@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../images/computercoding.jpeg";
-import image1 from "../images/womencoding.jpeg";
-import image2 from "../images/code.jpeg";
+import image from "../images/computercoding.png";
+import image1 from "../images/womencoding.png";
+import image2 from "../images/code.png";
 
 const imageAltText = "computer code";
 const image1women = "women on computer";
