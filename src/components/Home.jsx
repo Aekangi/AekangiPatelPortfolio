@@ -1,14 +1,14 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-import image from "../images/portfolioIMG.jpeg";
+import image from "../images/portfolioIMG1.png";
 
 const imageAltText = "myphoto";
 
 const Home = ({ name, title }) => {
     return (
         <section id="home" className="dark">
-            <img className="background" src={image} alt={imageAltText} />
+            <img className="background" src={image} alt="" />
             <div style={{ position: "absolute", top: "30%", left: "2rem" }}>
                 <h1>{name}</h1>
                 <h2>{title}</h2>
