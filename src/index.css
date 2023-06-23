@@ -103,7 +103,17 @@ a {
 }
 
 a:hover {
-  color: #4e567e;
+  color: rgba(250, 217, 217, 0.5);
+  ;
+}
+
+.headerA a {
+  color: white;
+}
+
+.headerA a:hover {
+  color: rgba(250, 217, 217, 0.5);
+  ;
 }
 
 .container {
@@ -122,6 +132,7 @@ a:hover {
   border: 1px solid rgb(26, 21, 21);
   text-align: center;
   width: 325px;
+  background-color: rgba(115, 114, 115, .7);
 }
 
 img.socialIcon {
@@ -130,7 +141,8 @@ img.socialIcon {
 }
 
 .portfoliobgrd {
-  background-color: rgb(173, 165, 194);
+  background-image: url("https://totalwallcovering.com/images/product/mosaic-tiles-zkji-l.jpg");
+  background-size: cover;
 }
 
 ul {

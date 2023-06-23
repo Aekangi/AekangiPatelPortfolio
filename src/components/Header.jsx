@@ -4,17 +4,18 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div
+        <div className="headerA"
             style={{
                 position: "fixed",
                 display: "flex",
                 justifyContent: "center",
                 gap: "2rem",
-                background: "rgbA(146, 129, 185, .5)",
+                background: "rgba(71, 59, 59, 0.5)",
                 padding: "1rem",
                 top: 0,
                 width: "100vw",
                 zIndex: 10,
+                fontSize: "1.2em",
             }}
         >
             <a href="#home">Home</a>
@@ -26,7 +27,7 @@ const Header = () => {
             >
                 Resume
             </a>
-        </div>
+        </div >
     );
 };
 
