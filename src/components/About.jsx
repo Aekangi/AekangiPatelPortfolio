@@ -24,11 +24,11 @@ const detailOrQuote = "Software is easy to make, except when you want it to do s
 const About = () => {
     return (
         <section className="light" id="about">
-            <img className="background" src="https://cdn.create.vista.com/api/media/small/362325210/stock-photo-black-white-grunge-background" alt="b/w mosaic tile" />
+            <img className="background" src="https://w0.peakpx.com/wallpaper/430/848/HD-wallpaper-dark-blue-dark-blue-abstract-waves-pattern-texture-surface.jpg" alt="b/w mosaic tile" />
             <div
                 style={{
-                    backgroundColor: "rgb(115, 114, 115)",
-                    opacity: ".9",
+                    backgroundColor: "rgb(0, 5, 46)",
+                    opacity: ".6",
                     width: "50%",
                     padding: "4rem",
                     margin: "3rem auto",

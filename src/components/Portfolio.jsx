@@ -9,7 +9,7 @@ const image2code = "coding image"
 const projectList = [
     {
         title: "FitNow",
-        description: "It's time to take control of your health today. After a hard day at work, the last thing you want to think about is what to eat and which exercises to follow. Well, here on FitNow, we've got you covered! FitNow is designed for those individuals that would like to get fit through exercises and diet plans. FitNow has well designed dinner plans for each day of the week. Think no more and start scrolling through the app to see what works for you!",
+        description: "FitNow: Your Ultimate Health Companion for Exercise and Diet Food Planning; The all-in-one health app designed to empower you on your fitness journey. With its two powerful sides—the Exercise App and Diet Food Plan—you'll have everything you need to achieve your health and wellness goals. FitNow ensures that both sides of the app work harmoniously to provide you with a holistic health experience. Seamlessly switch between the Exercise App and Diet Food Plan, and let them complement each other for optimal results Whether you're looking to shed pounds, build muscle, or simply maintain a balanced lifestyle, FitNow is your all-in-one companion for success. Get ready to unlock your full potential, harness your inner strength, and embrace a healthier, more vibrant version of yourself with FitNow – your gateway to a fit and nourished life.",
         description2: "BUILT WITH: POSTGRESQL, EXPRESS, REACT, NODE, CSS",
         description3: "",
         url: "https://main.d1pe52f8thbmyf.amplifyapp.com/",
@@ -18,7 +18,7 @@ const projectList = [
     {
         title: "Food Diary",
         description:
-            "Food Diary is an application designed to provide food recipes and mocktail recipes for everyday dinners. This app allows a user to view, add, update, and delete recipes. This project was solely built by myself. I understand that there are so many food apps already out there. What sets this app apart from the other apps is the fact that it's a one stop all app. Unlike other apps that only show recipes for either the food or drinks, this app lets you view both. Also the convenience of this app is that they are divided into their own sections. One tab leads you to food recipes while the other tab takes the user to mocktail concoctions. This app was designed to be family-friendly so none of the recipe use alcohol. I hope u enjoy the app!",
+            "Introducing Food Diary, the ultimate culinary companion app that brings together the art of food recipes and the creativity of mocktail recipes in one convenient platform. Food Diary is your go-to app for all things gastronomic, inspiring you to explore, create, and savor delicious meals and refreshing mocktails like never before. Whether you're a food enthusiast looking to expand your culinary repertoire or a non-alcoholic beverage lover seeking new and exciting mocktail creations, Food Diary is your virtual kitchen companion. Immerse yourself in a world of flavors, textures, and aromas as you embark on a culinary adventure, experimenting with tantalizing food and mocktail recipes that will awaken your senses and elevate your dining experiences. Let Food Diary be your guide on this delicious journey of exploration and enjoyment.",
         description2: "BUILT WITH: MONGOOSE, EXPRESS, REACT, NODE, CSS",
         description3: "",
         url: "https://fooddiary82.herokuapp.com/",
@@ -26,7 +26,7 @@ const projectList = [
     },
     {
         title: "BuddyUp",
-        description: "Was there any activity that you wanted to do but just didn't have anyone to go with? Well, BuddyUp was specifically tailored for those moments. My team and I built this app from scratch for the sole purpose of eliminating that feeling from a persons life. The purpose of the app is to see an activity, and match with other users that are interested in the same activity. Once there is a match, all of the contact information will be available for the user. In addition to viewing all of the activities, the user has the option to also add, update or delete an event they added. Enjoy the app!",
+        description: "Introducing BuddyUp, the ultimate social companion app designed to bring people together and enhance your social experiences like never before. With its intuitive interface and powerful matching capabilities, BuddyUp connects like-minded individuals who share common interests, revolutionizing the way you find your ideal activity companion. Say goodbye to attending events alone and embrace the excitement of meeting new people who share your enthusiasm. Browse user profiles, explore detailed interests, and let BuddyUp's advanced matching algorithm connect you with compatible individuals for enjoyable and engaging social experiences. Redefine your social journey and create lifelong memories with BuddyUp, where friendship and adventure collide.",
         description2: "BUILT WITH: POSTGRESQL, EXPRESS, REACT, NODE, CSS",
         description3: "",
         url: "https://main.ddr1fzghccyda.amplifyapp.com/",
@@ -34,7 +34,7 @@ const projectList = [
     },
     {
         title: "RAWG",
-        description: "RAWG is a website that's inteded for gamers to come and explore game genres they prefer and find new games within that genre to explore. Through the app, there is a description for each game the user wishes to find out more about. The app was built with an API from the RAWG website itself. Enjoy searching!",
+        description: "Introducing RAWG, the ultimate platform for gamers to dive into their favorite game genres and discover exciting new titles. With its user-friendly interface and comprehensive database, RAWG empowers gamers to explore, research, and connect with their gaming passions like never before. Discover games that match your preferences, and dive deeper into each title with detailed descriptions, ratings, and reviews. Built with an API sourced directly from the RAWG website, the app delivers an immersive and seamless experience. Whether you're seeking nostalgia-inducing classics or cutting-edge titles, the app is your gateway to a world of gaming exploration. Embrace the excitement, discover hidden gems, and embark on unforgettable gaming experiences with RAWG, the ultimate companion for every gamer.",
         description2: "BUILT WITH: VUE.JS, API, JAVASCRIPT, CSS",
         description3: "",
         url: "https://main.d2ujbqwsmf57lw.amplifyapp.com/",
@@ -51,17 +51,17 @@ const Portfolio = () => {
                     <div style={{ maxWidth: "40%", alignSelf: "center" }}>
                         <img
                             src={image}
-                            style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
+                            style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px", opacity: ".7" }}
                             alt={imageAltText}
                         />
                         <img
                             src={image1}
-                            style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
+                            style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px", opacity: ".7" }}
                             alt={image1women}
                         />
                         <img
                             src={image2}
-                            style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
+                            style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px", opacity: ".7" }}
                             alt={image2code}
                         />
                     </div>
