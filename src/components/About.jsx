@@ -20,7 +20,8 @@ const skillsList = [
     "HTML5",
 ];
 
-const detailOrQuote = "Software is easy to make, except when you want it to do something new. And then, of course, there is a corollary: The only software that's worth making is software that does something new. Scott Rossenberg";
+const detailOrQuote = "Software is easy to make, except when you want it to do something new. And then, of course, there is a corollary: The only software that's worth making is software that does something new.";
+const author = "- Scott Rossenberg";
 const About = () => {
     return (
         <section className="light" id="about">
@@ -53,6 +54,8 @@ const About = () => {
                 </ul>
                 <hr />
                 <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+                <p>{author}</p>
+
             </div>
         </section >
     );
