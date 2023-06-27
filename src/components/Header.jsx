@@ -10,12 +10,12 @@ const Header = () => {
                 display: "flex",
                 justifyContent: "center",
                 gap: "2rem",
-                background: "rgba(71, 59, 59, 0.5)",
+                background: "rgba(8, 15, 64, 0.5)",
                 padding: "1rem",
                 top: 0,
                 width: "100vw",
                 zIndex: 10,
-                fontSize: "1.2em",
+                fontSize: ".9em",
             }}
         >
             <a href="#home">Home</a>
