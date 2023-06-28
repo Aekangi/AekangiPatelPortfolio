@@ -87,11 +87,11 @@ p {
 }
 
 p.large {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p.small {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 hr {
@@ -100,6 +100,9 @@ hr {
 
 li {
   line-height: 1.7;
+  list-style-type: none;
+  font-size: 16px;
+
 }
 
 li::marker {
@@ -163,8 +166,4 @@ img.socialIcon {
 .portfoliobgrd {
   background-image: url("https://wallpaperaccess.com/full/3488454.jpg");
   background-size: cover;
-}
-
-ul {
-  list-style-type: none;
 }
