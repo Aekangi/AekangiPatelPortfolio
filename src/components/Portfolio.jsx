@@ -69,13 +69,13 @@ const Portfolio = () => {
                         {projectList.map((project) => (
                             <div className="box" key={project.title}>
                                 <a href={project.url} target="_blank" rel="noopener noreferrer">
-                                    <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                                    <h3>{project.title}</h3>
                                 </a>
                                 <p className="small">{project.description}</p>
                                 <p className="small">{project.description2}</p>
                                 <p className="small">{project.description3}</p>
                                 <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
-                                    <h3 style={{ flexBasis: "40px" }}>Github Repository</h3>
+                                    <h3>Github Repository</h3>
                                 </a>
                             </div>
                         ))}
