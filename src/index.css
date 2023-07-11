@@ -157,6 +157,7 @@ a:hover {
   width: 350px;
   background-color: rgba(0, 5, 46, .7);
   transition: all .2s ease-in-out;
+  margin-bottom: 10px;
 }
 
 .container .box:hover {
